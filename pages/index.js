@@ -45,7 +45,6 @@ const Home = () => {
 
   return (
     <div>
-      <h1>Hello, world!</h1>
       <div style={{ border: '1px solid black', padding: '20px', marginBottom: '10px' }}>
         <h2>Count {count}</h2>
         <button onClick={increment}>Increment</button>
