@@ -14,17 +14,6 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID
 };
 
-// // Your web app's Firebase configuration
-// const firebaseConfig = {
-//   apiKey: "AIzaSyB2MS6pOKnlCY4RayOZcBvMCSgFp0xhGzs",
-//   authDomain: "apper-nextjs-example-aea78.firebaseapp.com",
-//   projectId: "apper-nextjs-example-aea78",
-//   storageBucket: "apper-nextjs-example-aea78.appspot.com",
-//   messagingSenderId: "322637061214",
-//   appId: "1:322637061214:web:5991cc739bf35035b1e8cf"
-// };
-
-
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
 export const firebaseAuth = getAuth(app);
